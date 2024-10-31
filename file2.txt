@@ -1,0 +1,16 @@
+x := 5
+y := x + 1 : z := (y - 2) * 3
+A := somefunction(z)
+PRINT (z * 2) 
+PRINT "A = "; A
+END 
+DEF somefunction( a) 
+  WHILE a <= 0 DO 
+      a := a + 10
+  ENDWHILE : REM just some fiddling around to test the language 
+  IF a > 5 then 
+  	a := a + 2
+	RETURN a * 3
+  ENDIF  
+  RETURN a : REM else clause 
+ENDDEF

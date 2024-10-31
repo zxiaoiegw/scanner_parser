@@ -1,0 +1,12 @@
+counter := 1
+sum := 0
+
+WHILE counter <= 5 DO
+    sum := sum + counter
+    counter := counter + 1
+ENDWHILE
+
+IF sum > 10 THEN
+    PRINT "Sum is large: " ; sum
+ENDIF
+END

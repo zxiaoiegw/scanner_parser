@@ -1,0 +1,12 @@
+DEF calculate(x)
+    result := x * 2
+    IF result > 10 THEN
+        RETURN result + 5
+    ENDIF
+    RETURN result
+ENDDEF
+
+x := 7
+answer := calculate(x)
+PRINT "The answer is " ; answer
+END
